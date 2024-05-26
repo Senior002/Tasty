@@ -1,0 +1,87 @@
+body, div {
+    padding: 0;
+    margin: 0;
+}
+
+.conatainer {
+    box-sizing: border-box;
+}
+
+.col-md .text-foot p {
+    color: gray;
+}
+
+.text-foot a {
+    color: #7a7a7a;
+    text-decoration: unset !important;
+}
+
+.list-unstyled {
+    list-style: none;
+    
+}
+
+.text-foot a:hover {
+    color: white;
+    transition: .3s all ease;
+}
+
+.form_group input {
+    
+    border-color:gray;
+    color: white;
+    
+    
+}
+
+.form_group input:hover {
+    color: grey;
+    border-color: aqua;
+    outline-color: #7a7a7a;
+}
+
+.last_word p {
+    color: gray;
+    text-decoration: none;
+}
+
+.last_word a {
+    color: gray;
+    text-decoration: none;
+}
+
+.last_word a:hover {
+    color: white;
+}
+
+
+
+
+.text-foot .list_social_unstyled {
+    float: left!important;
+}
+
+.list_social_unstyled .lets_animate {
+    display: inline-block;
+    margin: 0 10px 0 0;
+    transition: 0.9s ease!important;
+}
+
+
+.list_social_unstyled .lets_animate a {
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.05);
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+
+.list_social_unstyled .lets_animate a span {
+    color: white;
+    
+}
+
+.last_word i {
+    margin-right: 3px;
+    
+}
